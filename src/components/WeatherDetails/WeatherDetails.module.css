@@ -1,0 +1,18 @@
+ul.listGroup {
+  list-style-type: none;
+  border: 1px solid rgba(0,0,0,0.125);
+  padding: 0;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+ul.listGroup li {
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+ul.listGroup li:last-child {
+  border-bottom: none;
+}

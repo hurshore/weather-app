@@ -1,0 +1,38 @@
+.Weather {
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  background-color: #41ace9;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.Weather h1, h3 {
+  margin-bottom: 0;
+}
+
+.Weather ul {
+  width: 100%;
+}
+
+.Weather .Button {
+  background-color: rgb(29, 89, 124);
+  padding: 0.8rem;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .Weather {
+    width: 540px;
+  }
+}

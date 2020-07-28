@@ -1,0 +1,18 @@
+.Modal {
+  width: 80%;
+  margin: auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 200;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease-out;
+}
+
+@media (min-width: 37.5rem) {
+  .Modal {
+    width: 31.25rem;
+  }
+}

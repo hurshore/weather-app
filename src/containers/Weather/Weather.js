@@ -22,7 +22,7 @@ class Weather extends Component {
       loading: false,
       error: false
     }
-    this.apiKey = 'c0515b843c73d2924a0ff2e1b95c5fe3';
+    this.apiKey = '';
   }
   componentDidMount() {
     axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.location.city},${this.state.location.state}&appid=${this.apiKey}`)
